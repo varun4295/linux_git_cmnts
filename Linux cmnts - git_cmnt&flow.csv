@@ -1,0 +1,16 @@
+Git_Flow,Meaning,,git_initial_config,Meaning,,ssh -key genrate panna
+git clone https://github.com/varun4295/python.git,repository create panni live la irrukuratha local ku condu varo,,git config --global user.name 'varun4295',set up aagiruchanu check panna git config user.name,,"ssh-keygen -t ed25519 -C ""your_email@example.com"""
+files create pannanum,touch use panni files create pannanum athuku munnadi antha live la irruka repo va local yethachum oru folder la podanum atha choose pannitu tha clone pannanum,,git config --global  user.email 'varunsanthosh15@gmail.com',git config user.email,,ppadi varum: Enter file in which to save the key (/home/varun/.ssh/id_ed25519):
+git add .,intha cmnt yethukuna namma commit panna ready pandro namma panna changes la ,,git repo va initialize pannanum,default ahh main branch set pannanum,,Just Enter press pannunga.
+git status,commit msg check panni katum,,git config --global init.defaultBranch  main,main branch nammale set pandro this is one time work tha,,Default location: ~/.ssh/id_ed25519
+code .,vs code la namma crdate panna files la vanthutrucha nu pakuro,,git init, initiate pandro repo va first time git login panna pa mattum pannanum,,3 time enter kudukanum next step follow down
+git branch,git la enna na branch irruku nu check pandro,,git revort bca123bcs,undo + new command comit panna msg ahh thirupi vera msg kuduka epdi pannanum na already commit panna thodsa id copy panni podanum,,
+git checkout -b varun,current branch la irrunthu switch aagi (-b)-na new branch create pannum athuku branch name kudukuro varun nu,,git reset bca123bcs,ithu commit panna msg ahh move pannum head ahh history ya delete pannidum,,cat ~/.ssh/id_ed25519.pub  -> public key aahh nuu paka aduthu enter kudukanum namaku key kedachurum copy panni paste pandrathu tha vela
+"git commit -m ""new files added""",namma enna files add pannama enna pannonu msg la sollanumapro tha nammala push panna mudium,,git tag v3.0.0 bca123bcs,ipditha tag pannanum commit panna msg oda id ya copy panni athu name kudukurathutha tag,,
+git push origin varun,ipdi kudutha apro username pass poda sollu potalum varathu athuku remote set pannanum epdi nu papokila,,git tag,verum git tag yethuku na enna na tag namma kitta irruku tag pannirukonu list katum,,
+git remote set-url origin git@github.com:varun4295/my_first_repo.git,itntha comnt remote server git hub ahh local oda connect pannum,,git show v3.0.0,namma tag panna commit msg ahh detail la show pannum ,,
+ssh - T  git@github.com,intha cmnt test pannum test panni sucessful nu vanthuruchuna push panna ready namma nxt push pannala,,,,,
+git push origin varun,varun branch ku files la push pandro,,,,,
+git pull origin main,main branch la irruntheu code la file la yeduthu vachukuro aduthu atha namm varun branch ku push pannanum,,,,,
+git push origin varun,push panniyachu,,,,,
+merge panna nanum main branchoda,pull request pr/compare pull request kudukamum,,,,,
