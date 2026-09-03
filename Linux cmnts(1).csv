@@ -1,0 +1,65 @@
+command,Example/Usage
+ls,files list pannum
+ls -l,long format
+ls -author,file owner information
+ls *.html,html files only
+cd Documents,going to document directory
+cd ~,home directory-ki pogum
+cd /,root directory-ki pogum
+cd ..,parent directoryki pogum
+pwd,shows current directory
+echo Hello,display Hello in output
+su,root user ku switch pannum
+su varun,varun userku switch pannum
+sudo useradd santhsh,create new user as santhosh
+"sudo password santhosh
+",santhosh user-ku password set panna
+sudo userdel santhosh,santhosh user delete panna
+sudo groupadd students,student group create pannum
+sudo groupdel students,student group delete panna
+cp,cp file1.txtx file2.txt
+cp -i file1.txtx file2.txt,overwrite confirmation
+cp -r ,cp -r folder1 folder2 -directory recursive ahh copy panna
+cp -v,cp -v file1.txt folder/ copy details-a katum
+mv ,mv file1.txt documents/  file-a document ku move pannum
+rm,rm file1.txt  file-a delete pannu
+rm -r folder,non empty directory-a delete pannumr
+rmdir -p,parent + chile directory-a delete  pannum
+rm -rp,rm -rp folder1  parent/subdirectories include delete panna
+grep,sepcific word irrukuratha search pannum
+grep -i,case insensitive
+grep -v,"grep -v ""hello""  hello illataha lines ahh show pannum"
+cat file1.txt,file contents ahh display pannum
+sort ,sort file1.txtt  file kulla irruka contents ahh sort pannum
+mkdir,mkdir demo means folder create panna
+chmod 744 spidy.sh,permission set panna
+nano,nano file1.txt  file editor
+vi,vi file1.txt vim editor
+password,current user's pass change panna
+touch,touch file1.txt
+df,disk partition space pala
+df -h,human readable
+zip,zip new_file.zip file1.txt
+hostname,host name katum
+hostname -l,IP Address katum
+ctrl + c,running cmnt safely stop panna
+ctrl + z,forcestop
+wc file1.txt,"line,word char cont pannum"
+sudo halt,power off
+sudo reboot,reboot
+sudo chown sandy file1.txt,file1.txt owner-a sandy-ki change panna
+sudo chown -R sandy file1.txt,folder+ulla irruka contents ku owner change pannum
+sudo chgrp students file1.txt,file grp-a students ku change pannum
+less file1.txt,file-a page by page browse pannum
+free,free and used memory katum
+top,cpu processinfo katum
+aspell check file1.txt,file la irruka contents oda sppellin check p-annum crct-um pannala
+cmp,2 files ahh compare pannum
+comm filoe1.txt file2.txt,sorted file-a line by line compare pannum
+sudo dnf install git,fedora
+tar -cvf backup.tar myfolder,myfolder-ahh backup.tar ahh create pannum
+tar -xvf backup.tar,backup.tar-ahh extract pannum
+ssh 192.168.1.10,remote machine ku ssh ahh connect pannum
+nslookup,query the nameserver for the ip address of the given Host optionly using a specified DNS
+ssh < master's ip >,"the cmnt ,on running at the master,will give remote access to the slave node"
+ssh <slave's ip >,slave node
