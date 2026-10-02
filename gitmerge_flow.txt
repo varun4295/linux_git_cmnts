@@ -1,0 +1,16 @@
+1) 2commits head ; 6 commits behind .
+   now we have to do pull main and the push to our branch.
+
+2) pull request la yarachu kuduthurukagala nu check pannanum apdi kuduthu irruntha meloa pulla request la 1 or 2 apdi nu katu.
+
+
+3) next merge panna 
+   compare pull request kudukala illana new pull request kudukala 
+
+
+4)file changes la poi namma file ella crct ta vanthurukanu check pannit,add title la last ahh namma enna commit msg ahh kuduthomo atha tharanu
+
+
+5) create pull request kuduthutu nammale merge panna kudathu mela irruka link ahh cpopy panni groiup la potu merge pannnanum nu sollanum
+
+6) referesh panni pathona merged successsfull nu varum apro namma branch la poi pakanum up to date irruntha process over 
